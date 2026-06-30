@@ -12,6 +12,7 @@ import { Route as rootRouteImport } from './routes/__root'
 import { Route as TermosDeUsoRouteImport } from './routes/termos-de-uso'
 import { Route as SobreRouteImport } from './routes/sobre'
 import { Route as ServicosRouteImport } from './routes/servicos'
+import { Route as PoliticaDePrivacidadeGeralRouteImport } from './routes/politica-de-privacidade-geral'
 import { Route as ContatoRouteImport } from './routes/contato'
 import { Route as IndexRouteImport } from './routes/index'
 
@@ -30,6 +31,12 @@ const ServicosRoute = ServicosRouteImport.update({
   path: '/servicos',
   getParentRoute: () => rootRouteImport,
 } as any)
+const PoliticaDePrivacidadeGeralRoute =
+  PoliticaDePrivacidadeGeralRouteImport.update({
+    id: '/politica-de-privacidade-geral',
+    path: '/politica-de-privacidade-geral',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 const ContatoRoute = ContatoRouteImport.update({
   id: '/contato',
   path: '/contato',
@@ -44,6 +51,7 @@ const IndexRoute = IndexRouteImport.update({
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/contato': typeof ContatoRoute
+  '/politica-de-privacidade-geral': typeof PoliticaDePrivacidadeGeralRoute
   '/servicos': typeof ServicosRoute
   '/sobre': typeof SobreRoute
   '/termos-de-uso': typeof TermosDeUsoRoute
@@ -51,6 +59,7 @@ export interface FileRoutesByFullPath {
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/contato': typeof ContatoRoute
+  '/politica-de-privacidade-geral': typeof PoliticaDePrivacidadeGeralRoute
   '/servicos': typeof ServicosRoute
   '/sobre': typeof SobreRoute
   '/termos-de-uso': typeof TermosDeUsoRoute
@@ -59,21 +68,42 @@ export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/contato': typeof ContatoRoute
+  '/politica-de-privacidade-geral': typeof PoliticaDePrivacidadeGeralRoute
   '/servicos': typeof ServicosRoute
   '/sobre': typeof SobreRoute
   '/termos-de-uso': typeof TermosDeUsoRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/contato' | '/servicos' | '/sobre' | '/termos-de-uso'
+  fullPaths:
+    | '/'
+    | '/contato'
+    | '/politica-de-privacidade-geral'
+    | '/servicos'
+    | '/sobre'
+    | '/termos-de-uso'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/contato' | '/servicos' | '/sobre' | '/termos-de-uso'
-  id: '__root__' | '/' | '/contato' | '/servicos' | '/sobre' | '/termos-de-uso'
+  to:
+    | '/'
+    | '/contato'
+    | '/politica-de-privacidade-geral'
+    | '/servicos'
+    | '/sobre'
+    | '/termos-de-uso'
+  id:
+    | '__root__'
+    | '/'
+    | '/contato'
+    | '/politica-de-privacidade-geral'
+    | '/servicos'
+    | '/sobre'
+    | '/termos-de-uso'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   ContatoRoute: typeof ContatoRoute
+  PoliticaDePrivacidadeGeralRoute: typeof PoliticaDePrivacidadeGeralRoute
   ServicosRoute: typeof ServicosRoute
   SobreRoute: typeof SobreRoute
   TermosDeUsoRoute: typeof TermosDeUsoRoute
@@ -102,6 +132,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ServicosRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/politica-de-privacidade-geral': {
+      id: '/politica-de-privacidade-geral'
+      path: '/politica-de-privacidade-geral'
+      fullPath: '/politica-de-privacidade-geral'
+      preLoaderRoute: typeof PoliticaDePrivacidadeGeralRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/contato': {
       id: '/contato'
       path: '/contato'
@@ -122,6 +159,7 @@ declare module '@tanstack/react-router' {
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   ContatoRoute: ContatoRoute,
+  PoliticaDePrivacidadeGeralRoute: PoliticaDePrivacidadeGeralRoute,
   ServicosRoute: ServicosRoute,
   SobreRoute: SobreRoute,
   TermosDeUsoRoute: TermosDeUsoRoute,
