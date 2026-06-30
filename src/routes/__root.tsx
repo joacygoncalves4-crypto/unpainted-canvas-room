@@ -80,6 +80,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { title: "ZP Conservação | Limpeza, Conservação e Terceirização de Mão de Obra em Brasília - DF" },
       { name: "description", content: "ZP CONSERVACAO E LIMPEZA LTDA (CNPJ 03.073.654/0001-33) — empresa ativa desde 1999 em Brasília - DF. Limpeza, conservação predial e terceirização de mão de obra." },
       { name: "author", content: "ZP Conservação e Limpeza LTDA" },
+      { name: "facebook-domain-verification", content: "lnhvezrev6fhsic9sflvvtur74tr0y" },
       { property: "og:title", content: "ZP Conservação | Limpeza e Terceirização em Brasília - DF" },
       { property: "og:description", content: "Empresa atuante desde 1999 — limpeza, conservação predial e gestão de recursos humanos para terceiros. CNPJ 03.073.654/0001-33." },
       { property: "og:type", content: "website" },
