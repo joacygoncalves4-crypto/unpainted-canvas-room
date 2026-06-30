@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://unpainted-canvas-room.lovable.app/sitemap.xml
