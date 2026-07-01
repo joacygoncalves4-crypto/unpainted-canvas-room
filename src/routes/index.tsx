@@ -15,7 +15,7 @@ export const Route = createFileRoute("/")({
   component: HomePage,
 });
 
-const WHATSAPP_URL = "https://wa.me/556139702400";
+const WHATSAPP_URL = "https://wa.me/5581995927036";
 
 function HomePage() {
   return (
@@ -179,7 +179,7 @@ function HomePage() {
             <h2 className="font-display text-3xl font-bold md:text-4xl">Vamos conversar?</h2>
             <p className="mt-4 text-white/85">Solicite um orçamento de limpeza, conservação ou terceirização de mão de obra — atendemos toda a região do DF.</p>
             <div className="mt-6 space-y-3 text-sm">
-              <div className="flex items-center gap-3"><Phone className="h-4 w-4" /> (61) 3970-2400 / (61) 9870-2400</div>
+              <div className="flex items-center gap-3"><Phone className="h-4 w-4" /> (81) 99592-7036</div>
               <div className="flex items-center gap-3"><Mail className="h-4 w-4" /> fiscal@contexdf.com.br</div>
               <div className="flex items-start gap-3"><MapPin className="mt-0.5 h-4 w-4" /> Av Pau Brasil Lote, 10 - Sala 1304, Águas Claras, Brasília - DF</div>
             </div>

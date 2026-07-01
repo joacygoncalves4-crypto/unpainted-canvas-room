@@ -15,7 +15,7 @@ export const Route = createFileRoute("/servicos")({
   component: ServicosPage,
 });
 
-const WHATSAPP_URL = "https://wa.me/556139702400";
+const WHATSAPP_URL = "https://wa.me/5581995927036";
 
 const services = [
   {

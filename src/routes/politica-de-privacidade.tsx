@@ -17,7 +17,7 @@ export const Route = createFileRoute("/politica-de-privacidade")({
         <li><strong>Razão Social:</strong> ZP CONSERVACAO E LIMPEZA LTDA</li>
         <li><strong>CNPJ:</strong> 03.073.654/0001-33</li>
         <li><strong>Endereço:</strong> Av Pau Brasil Lote, 10 - Sala 1304, Sul (Águas Claras), Brasília - DF, CEP 71.926-000</li>
-        <li><strong>Contato:</strong> fiscal@contexdf.com.br — (61) 3970-2400</li>
+        <li><strong>Contato:</strong> fiscal@contexdf.com.br — (81) 99592-7036</li>
       </ul>
 
       <h2>2. Dados Coletados via WhatsApp</h2>
@@ -60,7 +60,7 @@ export const Route = createFileRoute("/politica-de-privacidade")({
       <p>Esta política observa integralmente: (a) Lei Geral de Proteção de Dados — Lei nº 13.709/2018; (b) requisitos do <strong>Meta Business Manager</strong> e da <strong>API do WhatsApp Business</strong>.</p>
 
       <h2>10. Contato</h2>
-      <p>Para exercer direitos ou esclarecer dúvidas sobre esta política: <strong>fiscal@contexdf.com.br</strong> — (61) 3970-2400.</p>
+      <p>Para exercer direitos ou esclarecer dúvidas sobre esta política: <strong>fiscal@contexdf.com.br</strong> — (81) 99592-7036.</p>
     </LegalPage>
   ),
 });

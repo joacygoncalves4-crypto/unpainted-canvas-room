@@ -2,7 +2,7 @@ import { Link } from "@tanstack/react-router";
 import { Sparkles, Menu, X, MessageCircle } from "lucide-react";
 import { useState } from "react";
 
-const WHATSAPP_URL = "https://wa.me/556139702400";
+const WHATSAPP_URL = "https://wa.me/5581995927036";
 
 export function SiteHeader() {
   const [open, setOpen] = useState(false);

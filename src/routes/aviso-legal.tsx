@@ -17,7 +17,7 @@ export const Route = createFileRoute("/aviso-legal")({
         <li><strong>CNPJ:</strong> 03.073.654/0001-33</li>
         <li><strong>Natureza Jurídica:</strong> 206-2 — Sociedade Empresária Limitada</li>
         <li><strong>Endereço:</strong> Av Pau Brasil Lote, 10 - Sala 1304, Sul (Águas Claras), Brasília - DF, CEP 71.926-000</li>
-        <li><strong>Contato:</strong> fiscal@contexdf.com.br — (61) 3970-2400</li>
+        <li><strong>Contato:</strong> fiscal@contexdf.com.br — (81) 99592-7036</li>
       </ul>
 
       <h2>2. Finalidade do Site</h2>
