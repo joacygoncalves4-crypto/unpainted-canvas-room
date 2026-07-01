@@ -38,7 +38,7 @@ export const Route = createFileRoute("/termos-de-uso")({
       <p>Fica eleito o foro de Brasília - DF para dirimir quaisquer questões oriundas destes Termos.</p>
 
       <h2>9. Contato</h2>
-      <p>Dúvidas: <strong>fiscal@contexdf.com.br</strong> — (61) 3970-2400.</p>
+      <p>Dúvidas: <strong>fiscal@contexdf.com.br</strong> — (81) 99592-7036.</p>
     </LegalPage>
   ),
 });

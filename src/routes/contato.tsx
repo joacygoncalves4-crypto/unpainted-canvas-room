@@ -7,7 +7,7 @@ export const Route = createFileRoute("/contato")({
   head: () => ({
     meta: [
       { title: "Contato — ZP Conservação | Brasília - DF" },
-      { name: "description", content: "Fale com a ZP Conservação (CNPJ 03.073.654/0001-33) por WhatsApp, telefone (61) 3970-2400 ou e-mail fiscal@contexdf.com.br." },
+      { name: "description", content: "Fale com a ZP Conservação (CNPJ 03.073.654/0001-33) por WhatsApp (81) 99592-7036 ou e-mail fiscal@contexdf.com.br." },
       { property: "og:title", content: "Contato — ZP Conservação" },
       { property: "og:description", content: "WhatsApp, telefone e endereço em Brasília - DF." },
     ],
@@ -16,7 +16,7 @@ export const Route = createFileRoute("/contato")({
   component: ContatoPage,
 });
 
-const WHATSAPP_URL = "https://wa.me/556139702400";
+const WHATSAPP_URL = "https://wa.me/5581995927036";
 
 function ContatoPage() {
   const [sent, setSent] = useState(false);
@@ -33,7 +33,7 @@ function ContatoPage() {
       <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
         <div className="grid gap-10 md:grid-cols-2">
           <div className="space-y-6">
-            <ContactCard icon={Phone} title="Telefone / WhatsApp" lines={["(61) 3970-2400", "(61) 9870-2400"]} />
+            <ContactCard icon={Phone} title="WhatsApp" lines={["(81) 99592-7036"]} />
             <ContactCard icon={Mail} title="E-mail" lines={["fiscal@contexdf.com.br"]} />
             <ContactCard icon={MapPin} title="Endereço" lines={["Av Pau Brasil Lote, 10 - Sala 1304", "Sul (Águas Claras), Brasília - DF", "CEP 71.926-000"]} />
             <ContactCard icon={Clock} title="Horário de atendimento" lines={["Segunda a sexta: 8h às 18h"]} />

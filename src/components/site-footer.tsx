@@ -27,7 +27,7 @@ export function SiteFooter() {
               </div>
               <div className="flex items-center gap-2">
                 <Phone className="h-4 w-4 shrink-0 text-teal" />
-                <span>(61) 3970-2400 / (61) 9870-2400</span>
+                <span>(81) 99592-7036</span>
               </div>
               <div className="flex items-center gap-2">
                 <Mail className="h-4 w-4 shrink-0 text-teal" />

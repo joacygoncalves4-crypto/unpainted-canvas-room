@@ -43,7 +43,7 @@ export const Route = createFileRoute("/politica-de-privacidade-geral")({
       <p>Conforme o art. 18 da LGPD, o titular pode solicitar: confirmação e acesso, correção, anonimização, portabilidade, eliminação, informação sobre compartilhamentos e revogação do consentimento.</p>
 
       <h2>8. Encarregado (DPO) e Contato</h2>
-      <p>Para exercer direitos ou obter esclarecimentos: <strong>fiscal@contexdf.com.br</strong> — (61) 3970-2400.</p>
+      <p>Para exercer direitos ou obter esclarecimentos: <strong>fiscal@contexdf.com.br</strong> — (81) 99592-7036.</p>
 
       <h2>9. Alterações</h2>
       <p>Esta política pode ser atualizada. A data da última atualização está no topo da página.</p>
